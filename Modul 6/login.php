@@ -2,6 +2,11 @@
     session_start();
     include "Koneksi.php";
 
+    if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
+        header("Location: index.php");
+        exit();
+    }
+
     $error = "";
 
     if (isset($_POST['login'])) {
@@ -114,4 +119,3 @@
     </body>
 </html>
 
-https://github.com/bayuimantoro/SushiOn3.git

@@ -4,3 +4,4 @@
 <a href="index.php?menu=pilih_buku">PILIH KODE</a>
 <a href="index.php?menu=edit_buku">EDIT BUKU</a>
 <a href="index.php?menu=tampil_buku">HAPUS BUKU</a>
+<a href="index.php?menu=logout">LOGOUT</a>
